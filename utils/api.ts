@@ -29,5 +29,5 @@ export const pagesAPI = {
 };
 
 export const webhooksAPI = {
-  getEvents: () => api.get('/webhooks/events/'),
+  getEvents: () => api.get('/webhook/events/'),
 };
